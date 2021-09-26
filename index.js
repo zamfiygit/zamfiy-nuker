@@ -1,6 +1,7 @@
-const KahootSpammer = require('kahoot-spammer')
-const api = 
-console.log("Made by zamfiy2.0")
+ const KahootSpammer = require('kahoot-spammer')
+const api = KahootSpammer
+
+console.log("Made by zamfiy")
 
 var gamePin = prompt("Gamepin: (No Spaces) ")
 
@@ -22,5 +23,4 @@ api.spam(gamePin, BotName, amount)
 
 
 console.log('Sent ' + amount + ' to ' + gamePin + ' with Name ' + BotName); 
-
 
